@@ -27,3 +27,5 @@ def login_view(request):
         form = AuthenticationForm()
     return render(request, 'accounts/login.html', {'form': form})
 
+def account_settings(request):
+    return render(request, 'accounts/account_settings.html')
