@@ -1,0 +1,48 @@
+
+### `.gitignore`
+
+Voici une configuration typique de `.gitignore` pour un projet Django, adaptée à votre application `accounts` :
+
+```gitignore
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Environments #
+.env
+.vscode/
+.idea/
+.DS_Store
+
+# Virtual environments #
+venv/
+.env/
+.venv/
+
+# Migrations #
+accounts/migrations/
+
+# Node modules #
+node_modules/
+npm-debug.log
+
+# PyCharm #
+.idea/
+
+# Sublime Text #
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook #
+.ipynb_checkpoints
+
+# macOS #
+.DS_Store
+
+# Windows #
+Thumbs.db
+ehthumbs.db
