@@ -3,5 +3,12 @@
 
 {% block content %}
 <!-- Enter your content here ! -->
- <h1>Hello World!</h1>
+ <main class="container">
+     <h2>Account management</h2>
+     <ul>
+         <li>Username : {{ user.username }}</li>
+         <li>e-mail : {{ user.email }}</li>
+         <li>Account type : </li>
+     </ul>
+ </main>
 {% endblock content %}
